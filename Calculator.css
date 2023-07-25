@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    text-align: center;
+}
+.card{
+    margin: 0 auto;
+    width: 460px;
+    text-align: center;
+    margin-top: 15px;
+    box-shadow: 0px 4px 8px 0px gray;
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1); 
+    font-size: 0;
+}
+
+.card:hover{
+    box-shadow: 0px 16px 32px 0px gray;
+}
+
+.card-head #result{
+    height: 100px;
+    width: 335px;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: right;
+    padding: 0 5px;
+    letter-spacing: 2px;
+}
+
+.btn{
+    width: 87px;
+    height: 70px;
+    font-weight: bold;
+    background-color: #1f2326;
+    color: white;
+    font-size: 17px;
+
+
+}
+
+.btn-after{
+    background-color: blueviolet;
+}
+
+.btn-after:hover{
+    background-color: yellow;
+    color:black;
+}
+
+.btn:hover{
+    background-color: magenta;
+}
